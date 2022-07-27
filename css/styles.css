@@ -163,6 +163,10 @@ margin-left: 108px;}
 	margin-left: 185px;
 	margin-bottom: 132px;
 }
+.section-3__text{
+	max-width: 504px;
+	height: 128px;
+}
 .section-3__text h2{
 	text-align: left;
 	font-weight: 700;
