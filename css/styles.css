@@ -1,0 +1,283 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+html{
+	font-size: 68.5%;
+}
+body {
+	background: #FFFFFF;
+}
+
+/* стили для шапки */
+
+.header{
+	width: 1440px;
+	height: 145px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(255, 113, 67, 0.27);
+	margin-bottom: 104px;
+}
+
+.header img {
+	margin-left: 191px;
+}
+.header__nav a {
+	padding-right: 37px;
+	text-decoration: none;
+	color: #696871;
+}
+.header__nav a:hover{
+	color: #19191B;
+}
+.header__button {
+	background: #FF7143;
+	border-radius: 10px;
+	width: 212px;
+	height: 60px;
+	margin-right: 179px;
+	border: none;
+	cursor: pointer;
+}
+.header__button:hover {
+	background: #edb9a8;
+}
+
+.btn-text{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+
+.section{
+	display: flex;
+	flex-direction: column;
+}
+
+/* стили для 1 секции */
+
+.section-1{
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 85px;
+}
+.section-1__text{
+	margin-left: 191px;
+}
+.section-1__text h1{
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 77px;
+	color: #19191B;
+	margin-bottom: 30px;
+}
+.section-1__text p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #696871;
+	margin-bottom: 50px;
+}
+.section-1__btn button{
+	height: 60px;
+	width: 214px;
+}
+.btn__get{
+	background: #5454D4;
+	border-radius: 10px;
+	color: #FFFFFF;
+	margin-right: 35px;
+	border: none;
+	cursor: pointer;
+}
+.btn__get:hover{
+	background: #8686db;
+}
+.btn__try{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	border-color: #5454D4;
+	color:#5454D4 ;
+	cursor: pointer;
+}
+.btn__try:hover {
+	background: #5454D4;
+	color: #F8F8F8;
+
+}
+.section-1__img{
+margin-left: 108px;}
+
+
+/* стили для 2 секции */
+
+.section-2{
+	margin-left: 185px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 85px;
+}
+.section-2__btn{
+	margin-left: 170px;
+}
+.section-2__btn h2{
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 57px;
+	color: #19191B;
+	border: none;
+}
+.section-2__btn h2{
+
+}
+.section-2__btn input{
+	height: 60px;
+	width: 302px;
+	border: 1px solid #7087FF;
+	border-radius: 10px;
+	margin-right: 39px;
+}
+.section-2__btn button{
+	height: 60px;
+	width: 214px;
+	background: #5454D4;
+	border-radius: 10px;
+	color: #FFFFFF;
+	margin-right: 35px;
+	cursor: pointer;
+}
+.section-2__btn button:hover {
+	background: #8686db;
+
+}
+
+
+/* стили для 3 секции */
+.section-3{
+	margin-left: 185px;
+	margin-bottom: 132px;
+}
+.section-3__text h2{
+	text-align: left;
+	font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+margin-bottom: 98px;
+
+}
+.section-3__blocks {
+	display: flex;
+}
+.section-3__blocks p,h2,.block-1__btn {
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+
+}
+.block-1 {
+	width: 330px;
+	height: 441px;
+	background: #F8F8F8;
+	border-radius: 10px;
+	margin-right: 40px;
+
+}
+.block-1:hover {
+	background: #FF7143;
+	box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+	color: #FFFFFF;
+}
+.block-1 p{
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 50px;
+	color: #696871;
+}
+.block-1  h2{
+	font-weight: 700;
+font-size: 60px;
+line-height: 56px;
+
+}
+.block-1__btn button{
+	width: 285px;
+	height: 60px;
+	background: #FFFFFF;
+	border: 1px solid #EAE9F2;
+	border-radius: 10px;
+	color: #5454D4;
+	cursor: pointer;
+}
+.block-1__btn button:hover{
+	background: #7b7bc5;
+	color:#FFFFFF;
+}
+.block-2 {
+	width: 330px;
+	height: 441px;
+	background: #F8F8F8;
+	border-radius: 10px;
+	background: #F8F8F8;
+	border-radius: 10px;
+	margin-right: 40px;
+}
+.block-2 h2 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 56px;
+}
+.block-2:hover {
+	background: #FF7143;
+	box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+	color: #FFFFFF;
+}
+.block-3 {
+	width: 330px;
+	height: 441px;
+	background: #F8F8F8;
+	border-radius: 10px;
+	background: #F8F8F8;
+	border-radius: 10px;
+}
+.block-3 h2{
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 56px;
+}
+.block-3:hover {
+	background: #FF7143;
+	box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+	color: #FFFFFF;
+}
+
+
+/* стили для шапки */
+
+.footer{
+	width: 1440px;
+	height: 145px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(255, 113, 67, 0.27);
+}
+.footer img{
+	margin-left: 185px;
+}
+.footer__nav{
+	margin-right: 185px;
+}
+.footer__nav a{
+	padding-right: 37px;
+	text-decoration: none;
+	color: #696871;
+}
+.footer__nav a:hover{
+	color: #19191B;
+}
